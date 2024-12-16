@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgb(126, 168, 84);
+    font: normal 1em Arial, sans-serif;
+}
+h1#zed {
+    text-align: center;
+    background-color: darkgreen;
+    color: white;
+    font-size: 3em;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: underline;
+}
+h1 {
+    color: rgb(0, 54, 0);
+}
+.título{
+    text-shadow: 5px 5px 15px black;
+    text-decoration: underline;
+    font-size: 2em;
+}
+h2 {
+    color: rgb(0, 0, 0);
+}
+p {
+    text-align: justify;
+}
+.basico {
+    color: crimson;
+}
+.intermediario {
+    color: blueviolet;
+}
+.avançado {
+    color: deeppink;
+}
+.destaque {
+    color: white;
+    background-color: black;
+    font-style: italic;
+}

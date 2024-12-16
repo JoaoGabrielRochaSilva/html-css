@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias</title>
+</head>
+<body>
+    <h1>Tipos de Mídia</h1>
+    <h2>Imagens Dinâmicas</h2>
+    <p><ins>Aumente a tela do navegador para ver a imagem mudar</ins>.</p>
+    <picture>
+        <source media="(max-width: 750px )" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px )" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="imagem flexivel">
+    </picture>
+
+    <h2>Aúdios</h2>
+    <audio preload="metadata" controls loop autoplay>
+        <source src="midia/On My Own - Bail Bonds.mp3" type="audio/mpeg">
+        <source src="midia/On My Own - Bail Bonds.ogg" type="audio/ogg">
+        <source src="midia/On My Own - Bail Bonds.wav" type="audio/wav">
+        <p>O seu navegador não tem suporte para aúdios.<a href="midia/On My Own - Bail Bonds.mp3" download="On My Own - Bail Bonds.mp3" type="audio/mpeg">Clique aqui para instalar o arquivo MP3</a></p>
+    </audio>
+</body>
+</html>

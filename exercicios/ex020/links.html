@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personalizando LInks</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a {
+            text-decoration: none;
+            color: crimson;
+            font-weight: bold;
+        }
+        a:hover {
+            color: rgb(0, 0, 0);
+            text-decoration: underline;
+        }
+        a:visited {
+            color: darkred;
+        }
+        a:active {
+            color: green;
+        }
+        .zedão {
+            font-size: 2em;
+        }
+        .zedão::after {
+            content: '♰';
+        }
+        .zedão::before {
+            content: '♰';
+        }
+        .zedão:hover {
+            background-color: rgb(155, 91, 187);
+            text-decoration: line-through; 
+        }
+        .link::after {
+            content: '[link]';
+            color: darkmagenta;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>Links personalizados</h1>
+    <ul>
+        <li><a href="https://www.youtube.com/@killanov" class="zedão" target="_blank" rel="external">Mono zed</a></li>
+        <li><a href="https://www.cursoemvideo.com/" target="_blank" rel="external">curso em video</a></li>
+        <li><a href="https://github.com/gustavoguanabara" target="_blank" rel="external" class="link">github</a></li>
+    </ul>
+</body>
+</html>

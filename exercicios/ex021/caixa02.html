@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caixa 2</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: lightgreen;
+            margin: 0px;
+        }
+
+        header {
+            background-color: rgb(117, 216, 117);
+
+            margin: 0px 10px;
+
+            border-radius: 10px;         
+
+        }
+        header >  h1 {
+            color:  rgb(72, 105, 74);
+
+            margin: 10px 0px 0px 0px;
+            
+        }
+
+        a {
+            text-decoration: none;
+            color: white;
+        }
+
+        ul {   
+            background-color: rgb(95, 180, 95);
+
+            border-radius: 0px 0px 10px 10px;
+        }
+        li {
+            margin: 10px 10px 10px -20px;
+
+            box-shadow: inset 0px -2px 5px
+            rgba(0, 0, 0, 0.384);
+
+            width: 100px;
+        }
+        li:hover {
+            background: rgb(63, 122, 63);
+        }
+
+        main {
+            background-color: rgb(117, 216, 117);
+
+            margin: 0px 10px;
+
+            border-radius: 15px 0px;
+        }
+
+        section > h1 {
+            color: rgb(72, 105, 74);
+
+            text-decoration: underline;
+
+        }
+        article {
+            background-color:rgb(95, 180, 95);
+
+            border-radius: 0px 0px 10px 0px;
+        }
+
+        article > aside {
+            text-align: right;
+            font-weight: bold;
+            font-style: italic;
+
+            margin: 0px 20px 0px 0px 
+        }
+
+        article > p {
+            color: black;
+            text-align: justify;
+        }
+
+        footer {
+            background-color: rgb(87, 86, 86);
+
+            color: white;
+
+            text-align: center;
+
+            margin: 10px 0px;
+
+            padding: 10px;
+        }
+        footer > strong:hover {
+            color: goldenrod;
+            
+        }
+        strong > span {
+            display: none;
+        }
+        strong:hover > span {
+            display: inline;
+            color: darkred;
+            font: italic bold 1em Times;
+        }
+        .sombra {
+            box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.562)
+        }
+        h1 {
+            box-shadow: inset -3px 2px 12px rgba(0, 0, 0, 0.589);
+
+            border-radius: 10px;
+            
+            width: 175px;
+        }
+        
+    </style>
+</head>
+<body>
+    <header class="sombra">
+        <h1>Meu Site</h1>
+        <nav>
+            <ul type="none">
+                <li><a href="#">Link</a></li>
+                <li><a href="#">Link</a></li>
+                <li><a href="#">Link</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main  class="sombra">
+        <section>
+            <h1>Noticías</h1>
+            <article>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur nihil in placeat labore, laboriosam dolorem inventore assumenda id ipsa deserunt consequuntur impedit quibusdam ad maxime? Adipisci delectus ipsam nam ut. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi, eum. Aut, nulla ducimus quia dolorum perferendis velit perspiciatis a error, ratione fugit excepturi! Minima velit error quis, consequatur eos libero? Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem sunt nesciunt distinctio a commodi, aliquid sequi, minus dignissimos dicta inventore quas ex temporibus iure autem eligendi in veritatis ratione saepe.</p>
+                <aside>Escrito por Jão</aside>
+            </article>
+        </section>
+    </main>
+    <footer>Desenvolvido por <strong>João Gabriel <span>Mono zed</span></strong></footer>
+</body>
+</html>

@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>desafio 7</title>
+</head>
+<body>
+    <h1>Imagem Flexível</h1>
+    <p>Aumente ou diminua o navegador para ver a imagem aumentar ou diminuir de tamanho</p>
+
+    <picture>
+        <source media="(max-width: 650px )" srcset="imagens/fotogato-p.jpg" type="image/jpg">
+        <source media="(max-width: 1050px )" srcset="imagens/fotogato-m.jpg" type="image/jpg">
+        <img src="imagens/fotogato-g.jpg" alt="foto de um gato">
+    </picture>
+</body>
+</html>

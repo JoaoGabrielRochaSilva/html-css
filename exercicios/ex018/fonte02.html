@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes Externas</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+
+        @font-face {
+            font-family: 'HallowenInline';
+            src: url('fonts/HallowenInline.otf'), format('opentype') url('fonts/HallowenInline.ttf'), format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        body {
+            font-family: 'Fredericka the Great';
+            font-style: italic;
+            font-size: 2em;
+            font-weight: lighter;
+            text-align: justify;  
+        }
+        h1 {
+            font: italic normal 3em 'HallowenInline';
+        }
+    </style>
+</head>
+<body>
+    <h1>Título</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo at tenetur libero aspernatur, minus magnam deserunt quod, nostrum suscipit totam tempora impedit illo repudiandae beatae quibusdam fuga velit vitae reiciendis.</p>
+</body>
+</html>
