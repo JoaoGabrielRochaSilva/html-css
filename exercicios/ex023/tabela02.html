@@ -10,8 +10,11 @@
         }
 
         table {
-            width: 500px;
+            max-width: 500px;
+            width: 100%;
             border-collapse: collapse;
+
+            position: relative;
         }
 
         caption {
@@ -31,6 +34,20 @@
             color: white;
         }
 
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+
+            background-color: rgb(52, 52, 52);
+        }
+
+        tbody > tr:nth-child(even) {
+            background-color: lightgray;
+        }
+
+        tbody > tr:nth-child(odd) {
+            background-color: white;
+        }
         td.num {
             text-align: right;
         }
