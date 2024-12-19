@@ -6,27 +6,27 @@
     <title>Tabelas</title>
     <style>
 
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
         table {
             width: 500px;
+            height: 500px;
             border-collapse: collapse;
         }
 
         td {
             border: 2px solid black;
             padding: 5px;
+            text-align: left;
+            vertical-align: middle;
         }
 
-        td.linha {
-            background-color: aqua;
+        .numero {
+            text-align: right;
         }
 
-        td.linha1 {
-            background-image: linear-gradient(to right, gray, yellow);
-        }
-
-        tr {
-            background-color: lightgreen;
-        }
     </style>
 </head>
 <body>
@@ -39,19 +39,19 @@
             <td>C1</td>
         </tr>
         <tr>
-            <td class="linha">A2</td>
+            <td>A2</td>
             <td>B2</td>
             <td>C2</td>
         </tr>
         <tr>
             <td>A3</td>
             <td>B3</td>
-            <td>C3</td>
+            <td class="numero">C3</td>
         </tr>
         <tr>
             <td>A4</td>
             <td>B4</td>
-            <td class="linha1">C4</td>
+            <td class="numero">C4</td>
         </tr>
     </table>
 </body>
