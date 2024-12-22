@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+</head>
+<body>
+    <h1>Exemplo de Formulário</h1>
+
+    <form action="confirmar.php" method="get" autocomplete="on">
+        <fieldset>
+            <legend>Esportes Favoritos</legend>
+
+        <p>
+            <input type="checkbox" name="volei" id="ivolei" checked value="Marcado"><label for="ivolei">Vôlei</label> <br> 
+           
+            <input type="checkbox" name="Futebol" id="ifutebol value="Marcado""><label for="ifutebol" >Futebol</label> <br>
+            
+
+            <input type="checkbox" name="Basquete" id="ibasquete" value="Marcado"><label for="ibasquete" >Basquete</label> <br>
+            
+
+            <input type="checkbox" name="Bodybuild" id="ibodybuild" value="Marcado"><label for="ibodbuildy" >Bodybuild</label>
+        </p>
+
+        </fieldset>
+
+        <fieldset>
+            <legend>Sexo</legend>
+
+            <p>
+                <input type="radio" name="sexo" id="sm" checked value="Macho"><label   for="sm">Masculino</label>
+                <input type="radio" name="sexo" id="sf" value="Femea"><label for="sf">Femenino</label>
+            </p>
+
+        </fieldset>
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+
+    </form>
+</body>
+</html>
