@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+/*Estilo para a impressora*/
+
+* {
+    margin: 10px;
+    padding: 10px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+header > h1 {
+    text-align: center;
+}
+
+header ul {
+    display: none;
+}
+
+main {
+    font-size: 1.5em;
+    line-height: 2em;
+    width: 100%;
+    text-align: justify;
+    margin: auto;
+}
+
+article::after {
+    content:  'Acesse www.monozed.com/noticias';
+}
