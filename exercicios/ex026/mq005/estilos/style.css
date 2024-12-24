@@ -1,0 +1,96 @@
+@charset "UTF-8";
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+ body, html {
+    background-image: linear-gradient(to bottom, rgb(255, 255, 255), rgb(201, 201, 201));
+    
+}
+
+
+header {
+    background-image: linear-gradient(to bottom, rgb(166, 166, 166), rgb(75, 75, 75));
+}
+
+header > h1 {
+    text-align: center;
+    padding: 10px;
+}
+
+menu {
+    display: none;
+}
+
+menu > ul {
+    list-style-type: none;
+    background-color: lightgray;
+}
+
+menu > ul > li {
+    display: block;
+    background-color: rgb(114, 114, 114);
+    text-align: center;
+    margin-bottom: 1px;
+
+    border: 2px solid rgba(0, 0, 0, 0.656);
+}
+
+menu > ul > li > a {
+    display: block;
+
+    padding: 8px;
+
+    text-decoration: none;
+    color: white;
+}
+
+menu a:hover {
+    background-color: rgb(178, 178, 178);
+}
+
+#burguer {
+    display: block;
+    background-color: rgb(44, 44, 44);
+    color: white;
+    text-align: center;
+    padding: 8px;
+}
+
+#burguer:hover {
+    background: rgb(255, 255, 255);
+    color: black;
+    cursor: pointer;
+}
+
+main {
+    width: 90vw;
+    background-color: white;
+
+    margin: auto;
+    margin-top: 1px;
+
+    padding: 15px;
+
+    border-radius: 0px 0px 10px 10px;
+
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.343);
+}
+
+article h2 {
+    padding: 8px;
+    margin-bottom: 8px;
+}
+
+article > p {
+    text-align: justify;
+
+    margin-bottom: 15px;
+    text-indent: 20px;
+    line-height: 1.4em;
+
+}
