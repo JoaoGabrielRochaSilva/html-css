@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+header {
+    flex-flow: row nowrap;
+}
+
+header > h1 {
+    flex: 0 0 150px;
+}
+
+nav {
+    flex-flow: column nowrap;
+    flex: 0 1 60vw;
+    align-items: stretch;
+}
+   
