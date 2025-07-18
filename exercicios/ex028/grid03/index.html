@@ -10,12 +10,15 @@
             padding: 10px;
             display: grid;
 
-            grid-template: repeat(4, 100px) / repeat(3, auto);
+            grid-template: 1fr 2fr 1fr / 1fr 2fr 1fr;
 
             gap: 18px;
 
             place-items: normal normal;
-            place-content: start end;
+            place-content: normal normal;
+
+            grid-auto-flow: row;
+            grid-auto-rows: 100px;
         }
 
         div.item {
@@ -37,6 +40,8 @@
         <div class="item">H</div>
         <div class="item">I</div>
         <div class="item">J</div>
+        <div class="item">K</div>
+        <div class="item">L</div>
     </div>
 </body>
 </html>
